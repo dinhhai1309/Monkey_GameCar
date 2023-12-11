@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 72dc31b7e9dabfd44b24e6535ab4e90c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1160
+        width: 127
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412708e58179bfd4e8dcf9be8aca67a7
+      internalID: -1630558510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1158
+        width: 147
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8bda3caf94c3a40aefc56471baa78c
+      internalID: -1897019457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1163
+        width: 134
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443d6253507a244286b9e460913badf
+      internalID: -992761507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1163
+        width: 166
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314aba6f8f8672940ba670c623b0f465
+      internalID: 692310373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_4
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1147
+        width: 125
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a8c7a8cec66c84bbbc787684110cd5
+      internalID: 593578374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 932
+        width: 120
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b883c6af834542f42960fbdca90daad6
+      internalID: -1823480161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 927
+        width: 169
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92a4bba983e7af48a20d3acf547b51f
+      internalID: -951868255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 926
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac45a2cdea877ad4f97d8ac682601e38
+      internalID: 1609611439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 915
+        width: 70
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd2c677c56764f41b118ceb71d247a9
+      internalID: -1754565175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_9
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 907
+        width: 102
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b13fb29ea71f48ab0fa72a8fa5117
+      internalID: 1379696625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 668
+        width: 170
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f3249d612373143b853cec18b6a2d4
+      internalID: -455004814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 663
+        width: 118
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3503e1ce2c69745bc6f8555e6a0458
+      internalID: -28502035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 679
+        width: 203
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a776827c4905ae047b7f429dd0366ed2
+      internalID: -582855288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 682
+        width: 157
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4c4faa256d5b74d9419b081d4d9bb6
+      internalID: 1266517201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_14
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 694
+        width: 174
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f27a63731cf87d47ad457e4886cb278
+      internalID: -604444578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 423
+        width: 140
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18294d61f8a5f8d4d913e90f79f1e1e7
+      internalID: -557075124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 408
+        width: 177
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6b7d0d49e9a74faf3ae6df77ff6c0
+      internalID: -352293361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 437
+        width: 156
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bca466c6d725644afb7dce84d7d9ed
+      internalID: -490688031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_18
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 436
+        width: 144
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d67854b30d16b44b02ecde4f901690
+      internalID: 1842409609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_19
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 431
+        width: 153
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4bd9a0be69cc04fbee4b4f82206e67
+      internalID: 848528317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 201
+        width: 130
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc89b57aa1e80c4fa135023e2e68517
+      internalID: 1116270447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_21
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 205
+        width: 155
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd0e2a2928adf4d9552d79aada41b3
+      internalID: -1052135237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 220
+        width: 251
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a88421eeb288e648a15f2877770cb1e
+      internalID: 1652012193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 200
+        width: 164
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c5c17e0f1f52542b2ae39cfef43852
+      internalID: -1818115269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_24
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 214
+        width: 132
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32b32610cd8c2a4a8097d6f050aba82
+      internalID: 123414249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 18
+        width: 176
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e95e80ee9af374c87ffc532bcf7631
+      internalID: -191966101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_0: -1630558510
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_2: -992761507
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_21: -1052135237
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_14: -604444578
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_23: -1818115269
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_15: -557075124
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_13: 1266517201
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_5: -1823480161
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_19: 848528317
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_25: -191966101
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_24: 123414249
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_3: 692310373
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_7: 1609611439
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_16: -352293361
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_20: 1116270447
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_1: -1897019457
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_4: 593578374
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_6: -951868255
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_22: 1652012193
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_8: -1754565175
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_11: -28502035
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_18: 1842409609
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_9: 1379696625
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_17: -490688031
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_10: -455004814
+      Lovepik_com-833475200-Candy English alphabet 26 elements art word cute_12: -582855288
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

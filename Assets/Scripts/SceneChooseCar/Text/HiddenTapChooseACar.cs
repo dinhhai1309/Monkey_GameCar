@@ -5,7 +5,6 @@ using UnityEngine;
 public class HiddenTapChooseACar : MonoBehaviour
 {
     [SerializeField] public GameObject tapChooseACar;
-    public GameManager gameManager;
     private void Update()
     {
         if(GameManager.Instance.IsHiddenTextTap() == true)

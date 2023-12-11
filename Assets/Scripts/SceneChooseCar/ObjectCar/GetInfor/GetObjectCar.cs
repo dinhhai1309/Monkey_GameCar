@@ -6,9 +6,8 @@ using UnityEngine;
 public class GetObjectCar : MonoBehaviour
 {
     public List<GameObject> carObjects;
-    [SerializeField] public ObjectController objectController;  // Thêm tham chiếu đến ObjectController
 
-    public void Start()
+    public void Awake()
     {
         getCarObjects();
     }
@@ -17,7 +16,6 @@ public class GetObjectCar : MonoBehaviour
     {
         // Lấy tất cả các đối tượng có tag "carObject" và đặt chúng vào danh sách carObjects
         carObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("carObject"));
-        //carObjects = objectController.objectCar;
     }
 }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class GetObjectCarStart : MonoBehaviour
 {
     public List<GameObject> carObjects;
-    public void Start()
+    public void Awake()
     {
         getCarObjects();
     }

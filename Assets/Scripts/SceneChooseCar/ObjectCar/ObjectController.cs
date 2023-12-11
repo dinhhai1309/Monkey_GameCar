@@ -8,7 +8,6 @@ public class ObjectController : MonoBehaviour
 {
     public MoveCarToMiddle moveCarToMiddle;
     public MoveCarTheSide moveCarTheSide;
-    public GameManager gameManager;
     public GetPosition getPosition;
     public GetObjectCar getObjectCar;
     public List<Vector3> positionObjectCar;
@@ -19,7 +18,11 @@ public class ObjectController : MonoBehaviour
     {
         positionObjectCar = getPosition.carPositionsStart;
         objectCar = getObjectCar.carObjects;
-        if(GameManager.Instance.IsClickEabled() == true)
+        CheckClickEabled();
+    }
+    public void CheckClickEabled()
+    {
+        if (GameManager.Instance.IsClickEabled() == true)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -28,7 +31,6 @@ public class ObjectController : MonoBehaviour
             }
         }
     }
-
     void HandleMouseClick()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -38,10 +40,22 @@ public class ObjectController : MonoBehaviour
         if (hit.collider != null)
         {
             clickedObject = hit.collider.gameObject;
-            SkeletonAnimation skeletonAnimation = clickedObject.GetComponent<SkeletonAnimation>();
-            string animationName = skeletonAnimation.AnimationName;
-            Debug.Log(animationName);
-            GameManager.Instance.SetClickedObjectName(animationName);
+            Transform[] childObjects = clickedObject.GetComponentsInChildren<Transform>();
+
+            // Duyệt qua từng đối tượng con
+            foreach (Transform child in childObjects)
+            {
+                // Kiểm tra xem đối tượng con có thành phần SkeletonAnimation không
+                SkeletonAnimation skeletonAnimation = child.GetComponent<SkeletonAnimation>();
+
+                if (skeletonAnimation != null)
+                {
+                    // Bạn có thể sử dụng skeletonAnimation ở đây
+                    string animationName = skeletonAnimation.AnimationName;
+                    GameManager.Instance.SetClickedObjectName(animationName);
+                    break; // Nếu bạn chỉ quan tâm đến một đối tượng con đầu tiên có SkeletonAnimation
+                }
+            }
             if (getObjectCar.carObjects.Contains(clickedObject))
             {
                 // Lấy index của đối tượng trong danh sách

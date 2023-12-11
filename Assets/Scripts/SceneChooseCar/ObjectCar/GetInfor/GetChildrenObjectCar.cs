@@ -3,8 +3,7 @@ using UnityEngine;
 
 public class GetChildrenObjectCar : MonoBehaviour
 {
-    public List<GameObject> carChildrenObjects = new List<GameObject>();
-    public RandomCar randomCar;
+    public List<GameObject> carChildrenObjects;
     public moveCarAndPodium moveCarAndPodium;
 
     void Awake()

@@ -15,6 +15,5 @@ public class ChangeAnimationCountDown : MonoBehaviour
     {
         yield return new WaitForSeconds(6f);
         countDown.SetActive(true);
-        GameManager.Instance.SetSoundCountDown(true);
     }
 }

@@ -4,9 +4,8 @@ using UnityEngine.UI;
 
 public class TextScaling : ScaleByTime
 {
-    public GameManager gameManager;
     [SerializeField]public GameObject tapToChooseACar;
-    private void Update()
+    public virtual void Update()
     {
         if(GameManager.Instance.IsScaleText() == true)
         {

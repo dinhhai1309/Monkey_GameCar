@@ -6,6 +6,7 @@ using Spine.Unity;
 
 public class ChangeAnimationReferee : MonoBehaviour
 {
+    public GameManager gameManager;
     // Update is called once per frame
     public void Start()
     {
@@ -19,6 +20,6 @@ public class ChangeAnimationReferee : MonoBehaviour
         skeletonAnimation.AnimationName = "Referee - Go";
         yield return new WaitForSeconds(2f);
         skeletonAnimation.AnimationName = "Referee - Idle";
-
+        GameManager.Instance.SetMoveBackground(true);
     }
 }

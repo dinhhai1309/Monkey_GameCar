@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class GetPosition : MonoBehaviour
 {
-    public List<Vector3> carPositionsStart = new List<Vector3>();
+    public List<Vector3> carPositionsStart;
     public RandomCar randomCar;
     public GetObjectCar getObjectCar;
     public List<GameObject> objectsCar;
-    public void Start()
+    public void Awake()
     {
         objectsCar = getObjectCar.carObjects;
         StartCoroutine(DelayTime());

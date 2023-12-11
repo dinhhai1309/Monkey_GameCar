@@ -25,7 +25,6 @@ public abstract class TimeManager : MonoBehaviour, ICountTime
         {
             yield return new WaitForSeconds(1.0f);
             elapsedTime += 1.0f;
-            Debug.Log(elapsedTime);
             if (CheckElapsedTime())
             {
                 PerformAction();

@@ -21,9 +21,7 @@ public abstract class MoveByDistance : MonoBehaviour
         {
             float fractionOfJourney = elapsedTime / duration;
             targetObject.transform.position = Vector3.Lerp(initialPosition, targetPosition, fractionOfJourney);
-
             elapsedTime += Time.deltaTime;
-
             // Chờ một frame trước khi kiểm tra điều kiện kết thúc
             yield return null;
         }

@@ -5,7 +5,6 @@ using UnityEngine;
 public class MoveCarToMiddle : MoveByTime
 {
     public ScaleClickObject ScaleClickObject;
-    public GameManager gameManager;
     public LightAppear lightAppear;
     public override void Start()
     {
@@ -27,7 +26,5 @@ public class MoveCarToMiddle : MoveByTime
         GameManager.Instance.SetHiddenTextTap(true);
         StartCoroutine(lightAppear.IsLightObject());
         GameManager.Instance.SetPlaySoundChooseSuccess(true);
-
     }
-
 }

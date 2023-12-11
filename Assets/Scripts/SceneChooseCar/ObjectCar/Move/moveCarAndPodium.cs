@@ -6,12 +6,10 @@ public class moveCarAndPodium : MoveByDistance
 {
     [SerializeField] public GetObjectCar getObjectCar; // Thêm tham chiếu đến lớp chứa danh sách carObjects
     [SerializeField] public GetChildrenObjectCar getChildrenObjectCar; // Thêm tham chiếu đến lớp chứa danh sách carObjects
-    public GameManager gameManager;
     protected float distanceCarAndPodium;
     protected float distanceCar;
     public List<GameObject> carObject;
     public List<GameObject> carChildrenObject;
-
     public int currentCarIndex = 0;
     public bool isMoving = true;
     void Awake()
@@ -25,8 +23,7 @@ public class moveCarAndPodium : MoveByDistance
         carChildrenObject = getChildrenObjectCar.carChildrenObjects;
         if (isMoving)
         {
-            StartCoroutine(MoveCarsSequentially());
-            
+            StartCoroutine(MoveCarsSequentially());           
         }
     }
     public IEnumerator MoveCarsSequentially()

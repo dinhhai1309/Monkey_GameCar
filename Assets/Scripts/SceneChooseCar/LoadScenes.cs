@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour
 {
-    public GameManager gameManager;
     // Update is called once per frame
     void Update()
     {
@@ -18,6 +17,6 @@ public class LoadScenes : MonoBehaviour
     public IEnumerator ChangeScene()
     {
         yield return new WaitForSeconds(4f);
-        SceneManager.LoadScene("ScenePlayGame");
+        SceneManager.LoadScene("SceneChooseText");
     }
 }

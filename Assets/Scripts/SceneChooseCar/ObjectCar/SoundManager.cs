@@ -8,7 +8,6 @@ public class SoundManager : MonoBehaviour
     [SerializeField] public AudioSource soundYouGotACar;
     [SerializeField] public AudioSource soundChooseSuccessCar;
 
-    public GameManager gameManager;
     protected void Update()
     {
         if(GameManager.Instance.IsPlaySoundPodium() == true)
@@ -31,8 +30,6 @@ public class SoundManager : MonoBehaviour
         soundChooseSuccessCar.Play();
         soundYouGotACar.Play();
         GameManager.Instance.SetPlaySoundChooseSuccess(false);
-
         GameManager.Instance.SetLoadScence(true);
-        Debug.Log(GameManager.Instance.IsLoadScence());
     }
 }
